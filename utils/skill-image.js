@@ -72,11 +72,29 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import android from '/public/svg/skills/android.svg';
+import elasticsearch from '/public/svg/skills/elasticsearch.svg';
+import grafana from '/public/svg/skills/grafana.svg';
+import kibana from '/public/svg/skills/kibana.svg';
+import ubuntu from '/public/svg/skills/ubuntu.svg';
+import nodejs from '/public/svg/skills/nodejs.svg';
 
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case 'android':
+      return android;
+    case 'nodejs':
+      return nodejs;
+    case 'grafana':
+      return grafana;
+    case 'kibana':
+      return kibana;
+    case 'ubuntu':
+      return ubuntu;
+    case 'elasticsearch':
+      return elasticsearch;
     case 'gcp':
       return gcp;
     case 'html':
