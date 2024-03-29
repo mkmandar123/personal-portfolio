@@ -9,8 +9,8 @@ import './css/globals.scss';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Portfolio of Abu Said',
-  description: 'This is the portfolio of Abu Said. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.',
+  title: 'Portfolio of Mandar Kulkarni',
+  description: 'Welcome to my portfolio! As a key member of a Y Combinator startup, I thrive at the intersection of tech and business, spearheading the tech side for our acquisition team. Through strategic architectural enhancements and a keen eye for optimization, I\'ve not only boosted conversion rates but also optimized system stability and performance, significantly reducing server costs. With full ownership of the Android codebase, I\'ve demonstrated my ability to innovate and execute single-handedly. Explore my work and witness firsthand the impact of my technical prowess in driving success for cutting-edge ventures.',
 }
 
 export default function RootLayout({ children }) {
