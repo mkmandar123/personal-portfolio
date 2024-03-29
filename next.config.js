@@ -8,4 +8,5 @@ module.exports = {
     domains: ['res.cloudinary.com', 'media.dev.to']
   },
   basePath: '/personal-portfolio',
+  output: 'export'
 }
