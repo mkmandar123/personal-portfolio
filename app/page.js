@@ -8,18 +8,27 @@ import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
 async function getData() {
-    return [];
-  // const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
-  //
-  // if (!res.ok) {
-  //   throw new Error('Failed to fetch data')
-  // }
-  //
-  // const data = await res.json();
-  //
-  // const filtered = data.filter((item) => item?.cover_image).sort(() => Math.random() - 0.5);
-  //
-  // return filtered;
+    return [
+        {
+             url: 'https://www.youtube.com/embed/931-zuulV50?si=glTAAOQFmgvTn06-'
+        },
+        {
+             url: 'https://www.youtube.com/embed/1-mxLGY8_9I?si=LrcqEh__IeyjUPtP'
+        },
+        {
+             url: 'https://www.youtube.com/embed/C696KQGqqvU?si=TyuA5cn2nZFJWp7L'
+        },
+        {
+             url: 'https://www.youtube.com/embed/BDoQwRQ8_WU?si=Pr2-BIiAQL_0jGVI'
+        },
+        {
+             url: 'https://www.youtube.com/embed/xJTvxqreyog?si=sPdUrjYtQXZi6QxJ'
+        },
+        {
+             url: 'https://www.youtube.com/embed/x1KuE1A0G5M?si=yffNUNXEu0X7yfZF'
+        },
+
+    ];
 };
 
 export default async function Home() {
@@ -33,6 +42,7 @@ export default async function Home() {
       <Skills />
       <Projects />
       <Education />
+      <Blog blogs={blogs}/>
     </>
   )
 };
